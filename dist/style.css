@@ -1,0 +1,10 @@
+h1,
+h2,
+p {
+  text-align: center;
+}
+button {
+  position: fixed;
+  top: 0;
+  right: 0;
+}

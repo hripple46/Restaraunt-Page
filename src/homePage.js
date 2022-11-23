@@ -1,12 +1,6 @@
 function homePage() {
   const content = document.querySelector("#content");
 
-  const navigation = document.createElement("button");
-  navigation.innerHTML = "Schedule";
-  navigation.setAttribute("id", "schedule");
-
-  content.appendChild(navigation);
-
   const headerTitle = document.createElement("h1");
   headerTitle.innerHTML = "Henry's Bar and Grill";
 

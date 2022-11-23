@@ -3,8 +3,24 @@ h2,
 p {
   text-align: center;
 }
-button {
-  position: fixed;
-  top: 0;
-  right: 0;
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  align-items: center;
+}
+#headerNav {
+  grid-row: 1 / 2;
+  text-align: center;
+}
+#content {
+  grid-row: 2 / 3;
+}
+
+#scheduleGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1fr, 7);
+  justify-items: center;
+  align-items: center;
 }

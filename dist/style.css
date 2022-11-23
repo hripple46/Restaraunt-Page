@@ -6,12 +6,16 @@ p {
 
 body {
   display: grid;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 50px auto;
   align-items: center;
+}
+.menuItem {
+  text-align: center;
 }
 #headerNav {
   grid-row: 1 / 2;
   text-align: center;
+  height: 40px;
 }
 #content {
   grid-row: 2 / 3;

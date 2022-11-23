@@ -1,3 +1,5 @@
+import { head } from "lodash";
+
 function createHeader() {
   const header = document.createElement("div");
   header.setAttribute("id", "headerNav");
@@ -13,5 +15,10 @@ function createHeader() {
 
   homePageBtn.innerHTML = "Home Page";
   header.appendChild(homePageBtn);
+
+  const menuBtn = document.createElement("button");
+  menuBtn.setAttribute("id", "menuBtn");
+  menuBtn.innerHTML = "Menu";
+  header.appendChild(menuBtn);
 }
 export default createHeader;

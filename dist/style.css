@@ -1,3 +1,7 @@
+body {
+  font-family: "Comfortaa", cursive;
+}
+
 h1,
 h2,
 p {
@@ -8,6 +12,16 @@ body {
   display: grid;
   grid-template-rows: 50px auto;
   align-items: center;
+}
+button {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  font-size: 22px;
+}
+button:hover {
+  border-bottom: 1px solid grey;
+  border-color: rgba(128, 128, 128, 0.7);
 }
 .menuItem {
   text-align: center;

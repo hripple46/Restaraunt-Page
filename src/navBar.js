@@ -13,7 +13,7 @@ function createHeader() {
   const homePageBtn = document.createElement("button");
   homePageBtn.setAttribute("id", "homePageBtn");
 
-  homePageBtn.innerHTML = "Home Page";
+  homePageBtn.innerHTML = "Home";
   header.appendChild(homePageBtn);
 
   const menuBtn = document.createElement("button");

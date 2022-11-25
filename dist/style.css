@@ -7,11 +7,19 @@ h2,
 p {
   text-align: center;
 }
+h1 {
+  color: #edae49;
+}
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 body {
   display: grid;
   grid-template-rows: 50px auto;
   align-items: center;
+  background-color: #95afba;
 }
 button {
   background-color: transparent;
@@ -30,6 +38,10 @@ button:hover {
   grid-row: 1 / 2;
   text-align: center;
   height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 #content {
   grid-row: 2 / 3;

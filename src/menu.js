@@ -12,7 +12,7 @@ function menu() {
 
   const item1cost = document.createElement("div");
   item1cost.setAttribute("class", "menuItem");
-  item1cost.innerText = "$20.95";
+  item1cost.innerText = "$20.95\n\n";
   item1.appendChild(item1cost);
 
   const item2 = document.createElement("div");
@@ -22,7 +22,7 @@ function menu() {
 
   const item2cost = document.createElement("div");
   item2cost.setAttribute("class", "menuItem");
-  item2cost.innerText = "$20.95";
+  item2cost.innerText = "$20.95\n\n";
   item2.appendChild(item2cost);
 
   const item3 = document.createElement("div");
